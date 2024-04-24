@@ -1,0 +1,14 @@
+.historia {
+    display: flex;
+}
+
+.historia .historia-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.historia .historia-conteudo p{
+    font-size: 24px;
+}

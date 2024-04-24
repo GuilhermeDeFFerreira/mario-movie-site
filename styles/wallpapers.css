@@ -1,0 +1,26 @@
+.wallpapers{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 850px;
+}
+
+.wallpapers .wallpapers-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpapers .wallpapers-item img{
+    width: 150px;
+    max-width: 450px;
+
+    transform: skew(-10deg);
+}
+
+.wallpapers .wallpapers-item a svg{
+    margin-left: 50px;
+    width: 150px;
+    max-width: 50px;
+}
